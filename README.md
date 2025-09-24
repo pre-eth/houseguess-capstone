@@ -16,10 +16,11 @@ This project requires Linux or macOS to run.
 
 First, set up the `.env.example` template file with a valid API key for the [Maps Data](https://rapidapi.com/alexanderxbx/api/maps-data) API. Then, rename it to `.env`
 
-Afterwards, paste the following into your terminal.
+Afterwards, paste the following into your terminal. Python 3.10 is recommended.
 
 ```bash
-# Python 3.10+ recommended
+git clone https://github.com/pre-eth/houseguess-capstone.git
+cd houseguess-capstone
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
